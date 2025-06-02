@@ -42,16 +42,39 @@ class HomePage extends StatelessWidget {
               accountEmail: Text("a.22308051281092@cbtis128.edu.mx"),
               currentAccountPicture: GestureDetector( 
                 child: CircleAvatar(
-                  child: Text(
-                    "AR",
-                    style: TextStyle(
-                        color: Colors.pink,
-                        fontSize: 20.0,
-                        fontWeight: FontWeight.bold),
-                  ),
-                  backgroundColor: Colors.white,
-                
+                  radius: 130,
+            backgroundColor: Colors.red,
+            child: CircleAvatar(
+              radius: 120,
+              backgroundImage: NetworkImage(
+                  'https://raw.githubusercontent.com/Alondra-Ramirez-Sandoval-1092/jinstar_imagenes/refs/heads/main/usuario.png'),
+            ),
                 ),
+              ),
+            ),
+
+            InkWell(
+              onTap: (){},
+              child: ListTile(
+                onTap: (){Navigator.popAndPushNamed(context, "/home");},
+                leading: Icon(Icons.home, color: Colors.pink),
+                title: Text("Pagina Inico"),
+              ),
+            ),
+            InkWell(
+              onTap: null,
+              child: ListTile(
+                onTap: (){Navigator.popAndPushNamed(context, "/doctor");},
+                leading: Icon(Icons.person, color: Colors.black),
+                title: Text("Doctores"),
+              ),
+            ),
+            InkWell(
+              onTap: null,
+              child: ListTile(
+                onTap: (){Navigator.popAndPushNamed(context, "/empleado");},
+                leading: Icon(Icons.person_2_outlined, color: Colors.black),
+                title: Text("Empleados"),
               ),
             ),
           ],
