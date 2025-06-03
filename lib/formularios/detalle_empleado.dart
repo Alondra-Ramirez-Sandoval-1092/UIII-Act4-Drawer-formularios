@@ -48,7 +48,7 @@ class Details extends StatelessWidget {
             
             const SizedBox(height: 12),
             _buildMangaCard(
-              icon: Icons.auto_stories,
+              icon: Icons.person_2_sharp,
               id: "002",
               nombre: "Addison Montelongo",
               telefono: "656 798 6690",
