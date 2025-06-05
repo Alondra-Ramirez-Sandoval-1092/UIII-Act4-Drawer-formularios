@@ -36,7 +36,7 @@ class Details extends StatelessWidget {
         child: ListView(
           children: [
             _buildMangaCard(
-              icon: Icons.book,
+              icon: Icons.person,
               id: idEmpleado,
               nombre: nombre,
               telefono: telefono,

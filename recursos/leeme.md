@@ -12,3 +12,12 @@
 
 ## Formulario Doctor
 ![alt text](image-4.png)
+
+## Detalles Doctor
+![alt text](image-5.png)
+
+## Formulario Empleado
+![alt text](image-6.png)
+
+## Detalles Empleado
+![alt text](image-7.png)
